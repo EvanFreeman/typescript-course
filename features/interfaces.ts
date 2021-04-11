@@ -2,7 +2,7 @@ interface Reportable {
   summary(): string;
 }
 
-const drink = {
+const drink1 = {
   color: 'brown',
   carbonate: true,
   sugar: 40,
@@ -25,4 +25,4 @@ const printSummary = (item: Reportable): void => {
 };
 
 printSummary(oldCivic);
-printSummary(drink);
+printSummary(drink1);
